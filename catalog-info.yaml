@@ -1,0 +1,11 @@
+apiVersion: usebruno.com/v1alpha1
+kind: Bruno
+metadata:
+  name: bruno-genui-collection
+  title: bruno-genui-collection
+spec:
+  type: collection
+  url: https://github.com/vasharma05-bruno/bruno-genui-collection/tree/main/collection
+  owner: group:default/guests
+  partOf:
+    - api:default/github-rest-api
